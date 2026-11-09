@@ -1,10 +1,19 @@
-# BetaVR
+# Beta 1.7.3 VR Minecraft
 
-A mod that runs Minecraft Beta 1.7.3 in VR on the Steam Frame. It runs on the headset through Prism Launcher.
+A mod that runs Minecraft Beta 1.7.3 in VR.
 
-This is a fan project, not connected to Mojang, Microsoft or Valve. It doesn't include Minecraft. You need a Microsoft account that owns the game. Prism downloads the game from Mojang, and the package adds BetaVR and its changes to some of the game's classes.
+This is a fan project, not connected to Mojang, Microsoft or Valve. It doesn't include Minecraft. You need a Microsoft account that owns the game. Prism downloads the game from Mojang, and the package adds this mod and its changes to some of the game's classes.
 
 **Status:** early test build, mostly played on one headset. Multiplayer is untested and could only work on offline-mode servers.
+
+## Editions
+
+| Edition | Status | Runs on |
+| --- | --- | --- |
+| **Steam Frame Standalone** | Available | The headset itself. No PC needed. |
+| **SteamVR** | Planned, not available yet | A PC with SteamVR |
+
+The instructions below are for the Steam Frame Standalone edition.
 
 ## Install
 
@@ -21,11 +30,11 @@ You do all of this on the headset. You don't need a PC.
 3. In Prism, choose **Add Instance → Import** and paste this link:
 
    ```
-   https://github.com/cyanmayn/BetaVR/releases/latest/download/BetaVR-b1.7.3-share.zip
+   https://github.com/cyanmayn/Beta-1.7.3-VR-Minecraft/releases/latest/download/Beta-1.7.3-VR-Minecraft-Steam-Frame-Standalone.zip
    ```
 
-   Or [download the zip](https://github.com/cyanmayn/BetaVR/releases/latest) and drag it into Prism's window.
-4. Select BetaVR and press **Play**.
+   Or [download the zip](https://github.com/cyanmayn/Beta-1.7.3-VR-Minecraft/releases/latest) and drag it into Prism's window.
+4. Select it and press **Play**.
 5. The first launch takes a minute while Prism downloads the game, Java and the sounds. If it asks about installing Java, say yes.
 6. The game opens in VR. Point at menus and pull the trigger to click.
 
