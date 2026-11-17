@@ -4,7 +4,7 @@ A mod that runs Minecraft Beta 1.7.3 in VR.
 
 This is a fan project, not connected to Mojang, Microsoft or Valve. It doesn't include Minecraft. You need a Microsoft account that owns the game. Prism downloads the game from Mojang, and the package adds this mod and its changes to some of the game's classes.
 
-**Status:** early test build, mostly played on one headset. Multiplayer is untested and could only work on offline-mode servers. Frame and PC players should be able to join the same server.
+**Status:** early test build, mostly played on one headset. Multiplayer works on offline-mode Beta 1.7.3 servers; see Multiplayer below.
 
 ## Where it runs
 
@@ -65,7 +65,7 @@ These are the defaults on Steam Frame controllers. Other controllers use a simil
 | B | Inventory |
 | X | Drop item |
 | Y | Pause / back |
-| View button | Chat (multiplayer only) |
+| View button | Chat (multiplayer) |
 
 You can also swing the item in your hand to hit mobs and mine blocks.
 
@@ -80,6 +80,24 @@ To craft repeatedly, hold the trigger on the crafting result for a second.
 **Desktop view** sets what the game window on your PC shows, for recording or streaming. **Smooth centre** (the default on a PC) is a steadied camera from between your eyes, with the menus and HUD on top. **Centre** is the same without the steadying. **Left eye** copies one eye, which is cheaper. **Off** shows nothing. The centre camera draws the world one extra time, so turn it off if the game stutters.
 
 If the game stutters, lower the resolution or shorten the render distance.
+
+## Multiplayer
+
+Any **Minecraft Beta 1.7.3** server works, as long as it's in **offline mode** (`online-mode=false` in `server.properties`). Mojang's Beta login servers no longer exist, so online-mode servers can't be joined. VR players and desktop players can play together.
+
+**To see VR players' real head and hand movement,** the server needs the **BetaVR server add-on**. With it, other players who have this mod (in VR or on a desktop) see a VR player's head turn and tilt and their arms follow their hands. Players on a plain Beta game still see a normal player. Without the add-on, everyone looks like a normal player.
+
+**Setting up the add-on** (BisectHosting or any host that lets you choose a custom jar):
+
+1. Download `BetaVR-Server-Addon.jar` from this project's Releases page.
+2. Put it in the server's main folder, next to the official server jar (`minecraft_server-b1.7.3.jar`). The add-on doesn't include Minecraft; it starts the official jar with its changes in front.
+3. Choose `BetaVR-Server-Addon.jar` as the server jar (on BisectHosting: the custom jar setting).
+4. Set `online-mode=false` in `server.properties`, and turn off any "online mode" switch in your host's panel.
+5. Start the server. The console should say `Server add-on ... starting minecraft_server-b1.7.3.jar (official b1.7.3)`, and `<name> has the BetaVR mod` when a player with the mod joins.
+
+In offline mode anyone who knows the address can join under any name, so only share it with people you trust.
+
+**Typing the address:** the VR keyboard has **Paste**: copy the address in another app, then press Paste.
 
 ## Known issues
 
