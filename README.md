@@ -83,7 +83,22 @@ If the game stutters, lower the resolution or anti-aliasing, or shorten the rend
 
 ## Known issues
 
-- **Steam Frame streaming from a PC:** if you play on a PC and stream to a Steam Frame, pinning a window from the Frame's menu takes away the game's controls until you close that window. The Frame keeps telling SteamVR its menu is open while a window is pinned. Other headsets through SteamVR aren't affected. A Quest Pro through Virtual Desktop was tested and keeps its controls with pinned windows.
+<details>
+<summary><b>Steam Frame streaming from a PC: pinning a window takes away the game's controls</b></summary>
+
+<br>
+
+**What happens:** if you play on a PC and stream to a Steam Frame, pinning a window from the Frame's menu stops the game from getting any controller input. Your controls come back as soon as you close that window.
+
+**Why:** while a window is pinned, the Frame keeps telling SteamVR that its menu is open. Any time the menu is open, SteamVR gives the controllers to the menu instead of the game. SteamVR's logs show the Frame sending "menu open" when the window is pinned and "menu closed" only once it's gone. This affects any PC game streamed to the Frame, not just this one.
+
+**Not affected:** other headsets through SteamVR. A Quest Pro through Virtual Desktop was tested and keeps its controls with pinned windows.
+
+**Why it isn't fixed yet:** the only workaround found so far is changing SteamVR's own settings on the player's PC, so the menu doesn't take over the controllers. That would change how SteamVR behaves for every game, not just this one. A mod shouldn't do that to people's setups, so it's been left alone for now.
+
+**For now:** close the pinned window to get your controls back, or play through another headset.
+
+</details>
 
 ## Problems
 
