@@ -81,6 +81,10 @@ To craft repeatedly, hold the trigger on the crafting result for a second.
 
 If the game stutters, lower the resolution or anti-aliasing, or shorten the render distance.
 
+## Known issues
+
+- **Steam Frame streaming from a PC:** if you play on a PC and stream to a Steam Frame, pinning a window from the Frame's menu takes away the game's controls until you close that window. The Frame keeps telling SteamVR its menu is open while a window is pinned. Other headsets through SteamVR aren't affected. A Quest Pro through Virtual Desktop was tested and keeps its controls with pinned windows.
+
 ## Problems
 
 The game writes a log called `betavr.log` in the instance's `minecraft` folder. Include it when reporting a problem. Its first line says which build you're running.
