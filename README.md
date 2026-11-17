@@ -75,11 +75,11 @@ To craft repeatedly, hold the trigger on the crafting result for a second.
 
 **Options → VR Controls:** button bindings, turning style, aiming hand, trigger or swing, hotbar position, room movement.
 
-**Options → VR Video:** resolution, smooth distance, anti-aliasing, comfort vignette, desktop view.
+**Options → VR Video:** resolution, smooth distance, comfort vignette, desktop view.
 
 **Desktop view** sets what the game window on your PC shows, for recording or streaming. **Smooth centre** (the default on a PC) is a steadied camera from between your eyes, with the menus and HUD on top. **Centre** is the same without the steadying. **Left eye** copies one eye, which is cheaper. **Off** shows nothing. The centre camera draws the world one extra time, so turn it off if the game stutters.
 
-If the game stutters, lower the resolution or anti-aliasing, or shorten the render distance.
+If the game stutters, lower the resolution or shorten the render distance.
 
 ## Known issues
 
