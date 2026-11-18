@@ -26,26 +26,28 @@ Pick your setup and open its steps.
 
 <br>
 
-Do all of this on the headset.
+Do all of this on the headset, in the Frame's desktop mode.
 
 **You need:**
 - A Steam Frame
 - A Microsoft account that owns Minecraft
-- [Prism Launcher](https://prismlauncher.org/), the **ARM64 AppImage**
 
 **Steps:**
-1. Install Prism Launcher and open it.
-2. Add your Microsoft account when Prism asks.
-3. In Prism, choose **Add Instance → Import** and paste this link:
+1. Get the Linux **ARM64 AppImage** of Prism Launcher. The Frame has an ARM chip, so the usual Windows or x86 Linux downloads won't run on it.
+   - In the Frame's browser, go to [Prism's Linux download page](https://prismlauncher.org/download/linux/) and download the **AppImage** for **aarch64** (ARM64). The file name ends in `aarch64.AppImage`.
+   - Not the Flatpak, not the x86_64 AppImage, and not the Windows version.
+2. Make it runnable: right-click the file → **Properties** → **Permissions** → tick **Is executable**. Then double-click it to open Prism.
+3. Add your Microsoft account when Prism asks.
+4. In Prism, choose **Add Instance → Import** and paste this link:
 
    ```
    https://github.com/cyanmayn/Beta-1.7.3-VR-Minecraft/releases/latest/download/Beta-1.7.3-VR-Minecraft.zip
    ```
 
    Or [download the zip](https://github.com/cyanmayn/Beta-1.7.3-VR-Minecraft/releases/latest) and drag it into Prism's window.
-4. Select it and press **Play**.
-5. The first launch takes a minute while Prism downloads the game, Java and the sounds. If it asks about installing Java, say yes.
-6. The game opens in VR. Point at menus and pull the trigger to click.
+5. Select it and press **Play**.
+6. The first launch takes a minute while Prism downloads the game, Java and the sounds. If it asks about installing Java, say yes.
+7. The game opens in VR. Point at menus and pull the trigger to click.
 
 </details>
 
@@ -57,12 +59,11 @@ Do all of this on the headset.
 Do all of this on the PC.
 
 **You need:**
-- A PC with SteamVR and a VR headset (Quest players: Virtual Desktop or Steam Link into SteamVR)
+- A Windows PC with SteamVR and a VR headset (Quest players: Virtual Desktop or Steam Link into SteamVR)
 - A Microsoft account that owns Minecraft
-- [Prism Launcher](https://prismlauncher.org/), the normal **Windows** version
 
 **Steps:**
-1. Install Prism Launcher and open it.
+1. Get Prism Launcher for Windows: go to [Prism's Windows download page](https://prismlauncher.org/download/windows/) and download the normal **Windows installer** (x64). Run it, then open Prism.
 2. Add your Microsoft account when Prism asks.
 3. In Prism, choose **Add Instance → Import** and paste this link:
 
