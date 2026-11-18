@@ -34,7 +34,13 @@ Do all of this on the headset, in the Frame's desktop mode.
 
 **Steps:**
 1. Get the Linux **ARM64 AppImage** of Prism Launcher. The Frame has an ARM chip, so the usual Windows or x86 Linux downloads won't run on it.
-   - In the Frame's browser, go to [Prism's Linux download page](https://prismlauncher.org/download/linux/) and download the **AppImage** for **aarch64** (ARM64). The file name ends in `aarch64.AppImage`.
+   - In the Frame's browser, download it straight from Prism's GitHub (always the latest version):
+
+     ```
+     https://github.com/PrismLauncher/PrismLauncher/releases/latest/download/PrismLauncher-Linux-aarch64.AppImage
+     ```
+
+     The file is called `PrismLauncher-Linux-aarch64.AppImage`. You can also pick it yourself from Prism's Linux download page, https://prismlauncher.org/download/linux/ (choose **AppImage**, **aarch64**), or from the [Prism releases page](https://github.com/PrismLauncher/PrismLauncher/releases/latest).
    - Not the Flatpak, not the x86_64 AppImage, and not the Windows version.
 2. Make it runnable: right-click the file → **Properties** → **Permissions** → tick **Is executable**. Then double-click it to open Prism.
 3. Add your Microsoft account when Prism asks.
@@ -63,7 +69,13 @@ Do all of this on the PC.
 - A Microsoft account that owns Minecraft
 
 **Steps:**
-1. Get Prism Launcher for Windows: go to [Prism's Windows download page](https://prismlauncher.org/download/windows/) and download the normal **Windows installer** (x64). Run it, then open Prism.
+1. Get Prism Launcher for Windows from Prism's Windows download page:
+
+   ```
+   https://prismlauncher.org/download/windows/
+   ```
+
+   Download the normal **Windows installer** (x64; the file is called `PrismLauncher-Windows-MSVC-Setup-<version>.exe`). It's also on the [Prism releases page](https://github.com/PrismLauncher/PrismLauncher/releases/latest). Run it, then open Prism.
 2. Add your Microsoft account when Prism asks.
 3. In Prism, choose **Add Instance → Import** and paste this link:
 
