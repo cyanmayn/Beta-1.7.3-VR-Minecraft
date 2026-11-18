@@ -13,18 +13,25 @@ There's one zip, and it works in both places:
 | Where | Status |
 | --- | --- |
 | **Steam Frame, on its own** | Works. No PC needed. |
-| **PC with SteamVR** | Should work, not tested yet |
+| **PC with SteamVR** | Works. |
 
 On a PC, other headsets work through SteamVR. Quest players can use Virtual Desktop with its OpenXR runtime set to SteamVR. There's no separate Oculus version.
 
 ## Install
 
-On the Frame, you do all of this on the headset. On a PC, you do it on the PC.
+Pick your setup and open its steps.
+
+<details>
+<summary><b>Steam Frame (standalone, no PC)</b></summary>
+
+<br>
+
+Do all of this on the headset.
 
 **You need:**
-- A Steam Frame, or a PC with SteamVR and a VR headset
+- A Steam Frame
 - A Microsoft account that owns Minecraft
-- [Prism Launcher](https://prismlauncher.org/). On the Frame, get the ARM64 AppImage. On a PC, get the normal Windows version.
+- [Prism Launcher](https://prismlauncher.org/), the **ARM64 AppImage**
 
 **Steps:**
 1. Install Prism Launcher and open it.
@@ -38,7 +45,40 @@ On the Frame, you do all of this on the headset. On a PC, you do it on the PC.
    Or [download the zip](https://github.com/cyanmayn/Beta-1.7.3-VR-Minecraft/releases/latest) and drag it into Prism's window.
 4. Select it and press **Play**.
 5. The first launch takes a minute while Prism downloads the game, Java and the sounds. If it asks about installing Java, say yes.
-6. The game opens in VR. Point at menus and pull the trigger to click. On a PC, SteamVR has to be your OpenXR runtime, which you can set in SteamVR's settings under OpenXR.
+6. The game opens in VR. Point at menus and pull the trigger to click.
+
+</details>
+
+<details>
+<summary><b>PC with SteamVR</b></summary>
+
+<br>
+
+Do all of this on the PC.
+
+**You need:**
+- A PC with SteamVR and a VR headset (Quest players: Virtual Desktop or Steam Link into SteamVR)
+- A Microsoft account that owns Minecraft
+- [Prism Launcher](https://prismlauncher.org/), the normal **Windows** version
+
+**Steps:**
+1. Install Prism Launcher and open it.
+2. Add your Microsoft account when Prism asks.
+3. In Prism, choose **Add Instance → Import** and paste this link:
+
+   ```
+   https://github.com/cyanmayn/Beta-1.7.3-VR-Minecraft/releases/latest/download/Beta-1.7.3-VR-Minecraft.zip
+   ```
+
+   Or [download the zip](https://github.com/cyanmayn/Beta-1.7.3-VR-Minecraft/releases/latest) and drag it into Prism's window.
+4. Start SteamVR and put your headset on.
+5. In Prism, select the instance and press **Play**.
+6. The first launch takes a minute while Prism downloads the game, Java and the sounds. If it asks about installing Java, say yes.
+7. The game opens in VR. Point at menus and pull the trigger to click. The PC window shows a view for recording or streaming (**Options → VR Video → Desktop view**).
+
+If SteamVR is running, the game uses it, even if another OpenXR runtime is your default.
+
+</details>
 
 ## Updating
 
