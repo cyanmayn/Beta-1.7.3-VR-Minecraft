@@ -138,7 +138,7 @@ If the game stutters, lower the resolution or shorten the render distance.
 
 Any **Minecraft Beta 1.7.3** server works, as long as it's in **offline mode** (`online-mode=false` in `server.properties`). Mojang's Beta login servers no longer exist, so online-mode servers can't be joined. VR players and desktop players can play together.
 
-**To see VR players' real head and hand movement,** the server needs the **BetaVR server add-on**. With it, other players who have this mod (in VR or on a desktop) see a VR player's head turn and tilt and their arms follow their hands. Players on a plain Beta game still see a normal player. Without the add-on, everyone looks like a normal player.
+**To see VR players' real head and hand movement,** the server needs the **BetaVR server add-on**. With it, other players who have this mod (in VR or on a desktop) see a VR player's head turn and tilt, their body turn and duck with them, and their arms bend at the elbow to follow their hands, holding items the way their controllers point. Players on a plain Beta game still see a normal player. Without the add-on, everyone looks like a normal player. Update the add-on along with the mod: an older add-on still shows heads and arms, but not ducking or hand turns.
 
 **Setting up the add-on** (BisectHosting or any host that lets you choose a custom jar):
 
